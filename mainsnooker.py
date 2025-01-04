@@ -1,10 +1,7 @@
 from balltracker import BallTracker  # Mettre la classe dans un fichier balltracker.py
-from collections import deque
 from imutils.video import VideoStream
-import numpy as np
 import argparse
 import cv2
-import imutils
 import time
 import mido
 from mido import Message, MidiFile, MidiTrack
